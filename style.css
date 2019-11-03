@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+
+header{
+background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('https://cdn.thecrazytourist.com/wp-content/uploads/2017/10/ccimage-shutterstock_721532488.jpg');
+		background-position: center;
+		background-size: cover;
+		height: 100vh;
+		width: 100%;
+	}
+ ul{
+	list-style: none;
+		float: right;
+		margin-top: 25px;
+		
+	}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color:#fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+h3{
+	float: left;
+	margin-top: 1em;
+	
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.title h1{
+	color: #fff;
+	font-size: 50px;
+}
+.button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	color: #000;
+	background-color: #fff;
+}
